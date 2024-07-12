@@ -14,19 +14,19 @@ This repository contains an operating system simulator designed to model CPU sch
 ## 🕒 Scheduling Algorithms
 This section details the scheduling algorithms implemented in this simulator, how they operate, and their typical use cases.
 
-### First-Come, First-Served (FCFS)
+- ### First-Come, First-Served (FCFS)
 Processes are dispatched according to their arrival time. The first process to arrive is the first to be executed.
 
-### Shortest Job First (SJF)
+- ### Shortest Job First (SJF)
 Prioritizes processes with the shortest estimated running time, reducing the average waiting time.
 
-### Priority Scheduling
+- ### Priority Scheduling
 Processes are served based on priority. Higher priority processes interrupt lower priority ones in preemptive mode, whereas, in non-preemptive mode, a running process will complete irrespective 
 
-### Round Robin (RR)
+- ### Round Robin (RR)
 Each process is assigned a time slice (quantum), and processes are executed cyclically.
 
-### Shortest Remaining Time First (SRTF)
+- ### Shortest Remaining Time First (SRTF)
 An extension of SJF, this preemptive version switches to the process with the shortest estimated remaining time.
 
 
